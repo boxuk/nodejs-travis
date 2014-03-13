@@ -3,15 +3,6 @@ describe('String', function(){
     describe('#foo', function(){
         it('should equal bar', function(){
             // equal(expected, actual)
-            assert.equal("foo", "foo");
-        })
-    })
-});
-
-describe('String', function(){
-    describe('#foo', function(){
-        it('should equal bar', function(){
-            // equal(expected, actual)
             assert.equal("bar", "foo");
         })
     })
