@@ -5,6 +5,6 @@ describe('String', function(){
         it('should equal bar', function(){
             // equal(expected, actual)
             assert.equal("foo", "foo");
-        })
-    })
+        });
+    });
 });

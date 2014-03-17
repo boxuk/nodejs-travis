@@ -35,6 +35,10 @@ describe('String', function(){
             // equal(expected, actual)
             assert.equal('joe', converters.getKeyByName(person, 'name'));
         });
+        it('should equal false', function() {
+            // equal(expected, actual)
+            assert.equal(false, converters.getKeyByName(person, 'age'));
+        });
     });
 });
 
@@ -52,6 +56,10 @@ describe('String', function(){
         it('should equal USA', function() {
             // equal(expected, actual)
             assert.equal('USA', converters.getKeyByLogicalPosition(address, 3)); // it's offset.
+        });
+        it('should equal false', function() {
+            // equal(expected, actual)
+            assert.equal(false, converters.getKeyByLogicalPosition(address, 4)); // it's offset.
         });
     });
 });
